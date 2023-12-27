@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@google/model-viewer": "^3.3.0",
+    "default-passive-events": "^2.0.0",
+    "three": "^0.159.0"
+  }
+}

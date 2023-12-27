@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
+
+    </script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer@v0.7.2/dist/model-viewer-legacy.js">
+
+    </script>
+
+</head>
+
+<body>
+    <!-- <header></header> -->
+    <header class="header">
+        <img src="assets/logo/logo.png" alt="" class="logo">
+        <ul class="main-nav-list">
+            <li><a href="#home" class="main-nav-link">Home</a></li>
+            <li><a href ="#about" class ="main-nav-link">About</a></li>
+            <li><a href="#work" class="main-nav-link">Work</a></li>
+            <li><a href="#project" class="main-nav-link">Projects</a></li>
+            <li><a href="#contact" class="main-nav-link">Contact</a></li>
+        </ul>
+    </header>
+    <section id= "home" class="hero">
+        <!-- <img src="./assets/hero/webdev.png" alt="" class="hero-img"> -->
+        <img src="./assets/hero/bg.jpg" alt="" class="bg">
+        <div class="hero-description">
+            <h1 class="hero-title">
+                Hi I'm <span class="venya">Venya </span>!
+            </h1>
+            <p class="hero-subheading">
+                Web Developer
+            </p>
+        </div>
+        <div class="hero-model">
+            <model-viewer src="/models/desk.glb" camera-controls disable-pan disable-zoom interaction-promt="none"
+                min-camera-orbit="auto 55deg auto" max-camera-orbit="auto 92deg auto" field-of-view="35.3deg">
+            </model-viewer>
+        </div>
+    </section>
+    <section  id= "about"  class="about-me">
+        <div class="about-me-description">
+            <p class="introduction">
+                INTRODUCTION !
+            </p>
+            <h1 class="about-me-title">
+                Hello World !
+            </h1>
+            <p class="about-me-subheading">
+                I started my coding journey a few years ago and curretly I am pursuing my masters degree in Computer
+                science at the University of North Texas.
+                I'm interested in designing and user friendly functionality so hit me uo with your artistic project
+                ideas or app proposals
+            </p>
+        </div>
+        <div class="cards">
+            <div class="card animation">
+                <img src="/assets/skills/react.png" alt="" class="reactImg">
+                <p class="title">React JS</p>
+            </div>
+            <div class="card animation">
+                <img src="/assets/skills/R3F.png" alt="" class="r3f">
+                <p class="title">React 3 Fiber</p>
+            </div>
+            <div class="card animation">
+                <img src="/assets/skills/ThreeJs.png" alt="" class="threejs">
+                <p class="title">Three JS</p>
+            </div>
+            <div class="card animation">
+                <img src="/assets/skills/js.png" alt="" class="js">
+                <p class="title">Javascript</p>
+            </div>
+            <div class="card animation">
+                <img src="/assets/skills/htmlcss.png" alt="" class="html">
+                <p class="title">Html & Css</p>
+            </div>
+        </div>
+    </section>
+    <section id = "work" class="time-line-section">
+        <div class="time-line-content">
+            <div class="heading-description">
+                <p class="time-line-title">
+                    WHAT I HAVE DONE !
+                </p>
+                <h1 class="time-line-subheading">
+                    Work Experience
+                </h1>
+            </div>
+            <div class="timeline">
+                <div class="line"></div>
+                <div class="time-line-description">
+                    <div class="mini-circle"></div>
+                    <div class="content">
+                        <h2 class="content-timeline-title">
+                            Web Development
+                        </h2>
+                        <p class="content-timeline-description">
+                            Lorem, ipsum dolor sit amet consectetur
+                            adipisicing elit. Odio ullam
+                            labore ipsum distinctio quam quas temporibus,
+                            minus sed, atque ipsa molestiae minima culpa possimus
+                            ad doloribus harum voluptas, eum cum!
+                        </p>
+                    </div>
+                </div>
+                <div class="time-line-description">
+                    <div class="mini-circle"></div>
+                    <div class="content">
+                        <h2 class="content-timeline-title">
+                            Html & Css
+                        </h2>
+                        <p class="content-timeline-description">
+                            Lorem, ipsum dolor sit amet consectetur
+                            adipisicing elit. Odio ullam
+                            labore ipsum distinctio quam quas temporibus,
+                            minus sed, atque ipsa molestiae minima culpa possimus
+                            ad doloribus harum voluptas, eum cum!
+                        </p>
+                    </div>
+
+                </div>
+                <div class="time-line-description">
+                    <div class="mini-circle"></div>
+                    <div class="content">
+                        <h2 class="content-timeline-title">
+                            Javascript
+                        </h2>
+                        <p class="content-timeline-description">
+                            Lorem, ipsum dolor sit amet consectetur
+                            adipisicing elit. Odio ullam
+                            labore ipsum distinctio quam quas temporibus,
+                            minus sed, atque ipsa molestiae minima culpa possimus
+                            ad doloribus harum voluptas, eum cum!
+                        </p>
+                    </div>
+
+                </div>
+                <div class="time-line-description">
+                    <div class="mini-circle"></div>
+                    <div class="content">
+                        <h2 class="content-timeline-title">
+                            React
+                        </h2>
+                        <p class="content-timeline-description">
+                            Lorem, ipsum dolor sit amet consectetur
+                            adipisicing elit. Odio ullam
+                            labore ipsum distinctio quam quas temporibus,
+                            minus sed, atque ipsa molestiae minima culpa possimus
+                            ad doloribus harum voluptas, eum cum!
+                        </p>
+                    </div>
+
+                </div>
+                <div class="time-line-description">
+                    <div class="mini-circle"></div>
+                    <div class="content">
+                        <h2 class="content-timeline-title">
+                            Python
+                        </h2>
+                        <p class="content-timeline-description">
+                            Lorem, ipsum dolor sit amet consectetur
+                            adipisicing elit. Odio ullam
+                            labore ipsum distinctio quam quas temporibus,
+                            minus sed, atque ipsa molestiae minima culpa possimus
+                            ad doloribus harum voluptas, eum cum! </p>
+                    </div>
+
+                </div>
+                <div class="time-line-description">
+                    <div class="mini-circle"></div>
+                    <div class="content">
+                        <h2 class="content-timeline-title">
+                            Backend
+                        </h2>
+                        <p class="content-timeline-description">
+                            Lorem, ipsum dolor sit amet consectetur
+                            adipisicing elit. Odio ullam
+                            labore ipsum distinctio quam quas temporibus,
+                            minus sed, atque ipsa molestiae minima culpa possimus
+                            ad doloribus harum voluptas, eum cum! </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id = "project" class="projects">
+        <h1 class="project-title">My Projects</h1>
+        <p class="project-description">
+            Take a look at the some of the interesting Projects
+            I have done using React,Mern stack and other frameworks throughout 
+            my academic and coding journey
+        </p>
+        <div class="projects-done">
+            <div class="project-items">
+                <img src="./assets/links/groot-img.png" class="images" alt="" />
+                <h2 class="projects-title">E commerce Website</h2>
+                <p class="projects-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Eaque nemo reprehenderit expedita esse obcaecati repudiandae
+                    omnis saepe minima, aspernatur magnam alias iure.Recusandae consectetur
+                    maxime voluptatum animi qui temporibus perferendis?
+                </p>
+                <a href="www.github.com" target="_blank" class="btn">Check out</a>
+            </div>
+            <div class="project-items">
+                <img src="./assets/links/AnimatedBackground.png" class="images" alt="" />
+                <h2 class="projects-title">Task Management</h2>
+                <p class="projects-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Eaque nemo reprehenderit expedita esse obcaecati repudiandae
+                    omnis saepe minima, aspernatur magnam alias iure.Recusandae consectetur
+                    maxime voluptatum animi qui temporibus perferendis?
+                </p>
+                <a href="www.github.com" target="_blank" class="btn">Check out</a>
+            </div>
+            <div class="project-items">
+                <img src="./assets/links/htmlport.png" class="images" alt="" />
+                <h2 class="projects-title">Portfolio Website</h2>
+                <p class="projects-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Eaque nemo reprehenderit expedita esse obcaecati repudiandae
+                    omnis saepe minima, aspernatur magnam alias iure.Recusandae consectetur
+                    maxime voluptatum animi qui temporibus perferendis?
+                </p>
+                <a href="www.github.com" target="_blank" class="btn">Check out</a>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id = "contact" class="contact">
+        <div class="form-box">
+            <h1 class="form-title">Contact Me</h1>
+            <div class="form-bg">
+                <form id="form">
+                    <div class="form-content">
+                        <div class="email-box">
+                            <label for="email" class="email-title">E-mail:</label>
+                            <input type="email" id="email" name="email"
+                                placeholder="E-mail destination, ex:wd. https@gmail.com" class="email-input"/>
+                        </div>
+                        <div class="subject-box">
+                            <label for="subject" class="subject-title">Subject:</label>
+                            <input type="text" id="subject" name="subject" placeholder="Subject E-mail"
+                                class="subject-input"/>
+                        </div>
+                        <div class="message-box">
+                            <label for="message" class="message-title">Message:</label>
+                            <textarea type="text" id="message" name="message" placeholder="Message of E-mail"
+                                class="message-input"></textarea>
+                        </div>
+                        <div id="buttons">
+                            <button type="submit" class="send-button" disabled>Send</button>
+                            <button type="reset" class="reset-button" >Reset</button>
+                        </div>
+                    </div>
+                </form>
+                <div id="spinner" class="hideSpinner messageSent">
+                    <div class="sk-chase">
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                    </div>
+                </div>
+                <div id="spinner" class="hideSpinner messageSent">
+                    <div class="sk-chase">
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <model-viewer class="robo" src="/models/robot_playground/scene.gltf" camera-controls disable-pan disable-zoom
+            interaction-promt="none" field-of-view="10deg" autoplay="experiment_Object_159">
+
+        </model-viewer>
+    </section>
+    <script type="text/javascript" src="node_modules/default-passive-events/dist/index.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
