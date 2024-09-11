@@ -544,7 +544,7 @@ model-viewer {
     display: grid;
     place-items: center;
     width: 48vw;
-    height: 60vh;
+    height: 66vh;
 }
 
 .email-box {
@@ -562,7 +562,7 @@ model-viewer {
 .message-title {
     color: #fffa;
     margin-left: -40vw;
-    font-size: 1.4vw;
+    font-size: 1.3vw;
     font-family: "EB Garamond";
 }
 
@@ -592,7 +592,7 @@ model-viewer {
     place-items: center;
     width: 45vw;
     height: 35vh;
-    margin-top: 18vh;
+    margin-top: 19vh;
 
 }
 

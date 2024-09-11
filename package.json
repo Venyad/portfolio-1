@@ -3,5 +3,11 @@
     "@google/model-viewer": "^3.3.0",
     "default-passive-events": "^2.0.0",
     "three": "^0.159.0"
+  },
+  "scripts": {
+    "start": "http-server ."
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
   }
 }
